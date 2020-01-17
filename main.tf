@@ -24,7 +24,7 @@ provider "azurerm" {
 // Modules
 module "computeinfra" {
   source  = "app.terraform.io/cmporg/computeinfra/azure"
-  version = "1.0.1"
+  version = "1.0.2"
 
   clientId = "${var.computeinfra_clientId}"
   clientSecret = "${var.computeinfra_clientSecret}"
